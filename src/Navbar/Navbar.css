@@ -57,16 +57,14 @@ a:hover:after
 .Login
 {
     
-    padding: 15px;
-    margin-right: 35px;
+    padding: 10px 25px 10px 25px;
     font-size: 18px;
     border: 2px solid white;
     border-radius: 10px;
     background: transparent;
     color: black;
-    float: right;
-    right: 0;
-    position: absolute;
+    left: 125px;
+    position: relative;
 }
 
 .Login:hover

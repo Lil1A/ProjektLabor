@@ -5,12 +5,18 @@ function Navbar()
 
     return(
         <div className='Navbar'>
-            <a href='Főoldal'>Főoldal</a> 
-            <a href='Kapcsolat'>Kapcsolat</a>
-            <a href='Ügyintézés'>Ügyintézés</a>
-            <a href='GYIK'>GY.I.K</a>
-            <a href='Reg'>Regisztráció</a>
-            <button className='Login'>Belépés</button>
+            <a href='Főoldal' id='Főoldal'>Főoldal</a> 
+            <a href='Kapcsolat' id='Kapcsolat'>Kapcsolat</a>
+            <a href='Ügyintézés' id='Ügyintézés'>Ügyintézés</a>
+            <a href='GYIK' id='GYIK'>GY.I.K</a>
+          
+          
+            {/*
+                     <button className='Login'>Belépés</button>            
+          
+          */}
+
+
         </div>
     );
 }

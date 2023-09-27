@@ -1,6 +1,27 @@
 .RegisterPageWrapper
 {
-    width: 500px;
+    width: 400px;
     height: 500px;
     background-color: #1f99c9;
+    border-radius: 15px;
+}
+
+.RegisterPageInputHolder
+{
+    margin-top: 15px;
+   text-align: center;
+}
+
+.InputHolder
+{
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 15px;
+    padding: 7px;
+    border-radius: 15px;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
 }

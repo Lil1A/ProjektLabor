@@ -5,9 +5,11 @@ function RegisterPage()
 {
     return(
         <div className='RegisterPageWrapper'>
-                Nincs még fiókod? Regisztrálj
-              Van már fiókod? Jelentkezz be
-
+            <div className='RegisterPageInputHolder'>
+                Nincs még fiókod? Regisztrálj<br></br>
+              <input className='InputHolder' placeholder='Email cím' id='email'></input><br></br>
+              <input className='InputHolder' placeholder='Jelszó' id='password'></input>
+            </div>
         </div>
     );
 

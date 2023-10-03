@@ -1,4 +1,4 @@
-.RegisterPageWrapper
+.LoginPageWrapper
 {
     width: 400px;
     height: 500px;
@@ -6,7 +6,7 @@
     border-radius: 15px;
 }
 
-.RegisterPageInputHolder
+.LoginPageInputHolder
 {
     margin-top: 15px;
    text-align: center;
@@ -33,7 +33,7 @@
     padding: 7px;   
 }
 
-.RegisterPageWrapper button{
+.LoginPageWrapper button{
     border-radius: 15px;
     padding: 10px;
     background-color: #ffffff;
@@ -42,13 +42,13 @@
     margin-top: 50px;
 }
 
-.RegisterPageWrapper button:hover
+.LoginPageWrapper button:hover
 {
     background-color: rgb(80, 80, 250);
     color: white;
 }
 
-.RegisterPageInputHolder a{
+.LoginPageInputHolder a{
     color: rgb(0, 0, 0);
     text: 15px;
 }

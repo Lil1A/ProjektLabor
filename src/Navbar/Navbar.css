@@ -15,7 +15,7 @@ img
     height: 500px;
 }
 
-a
+.Navbar a
 {
     margin: 15px;
     justify-content: center;
@@ -28,7 +28,7 @@ a
     position: relative;
 }
 
-a:after
+.Navbar a:after
 {
     content: '';
   position: absolute;
@@ -41,12 +41,12 @@ a:after
   -webkit-transition: width .5s ease;
 }
 
-a:hover
+.Navbar a:hover
 {
     color: white;
 }
 
-a:hover:after
+.Navbar a:hover:after
 {
     width: 100%;
     left: 0;

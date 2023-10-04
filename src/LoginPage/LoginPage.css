@@ -2,18 +2,21 @@
 {
     width: 400px;
     height: 500px;
-    background-color: #bde3f2;
+    margin-left: 50px;
+    background: linear-gradient(#efbbff, #91b8e5);
     border-radius: 15px;
 }
 
 .LoginPageInputHolder
 {
+    border: none;
     margin-top: 15px;
    text-align: center;
 }
 
 .InputHolder
 {
+    border: none;
     justify-content: center;
     position: relative;
     align-items: center;
@@ -25,6 +28,13 @@
     text-decoration: none;
  
 }
+.LoginPageInputHolder input
+{
+    justify-content: center;
+    width: 200px;
+    border: none;
+}
+
 
 .InputHolder2{
     margin: 5px 10px 15px 0px;
@@ -34,6 +44,7 @@
 }
 
 .LoginPageWrapper button{
+    border: none;
     border-radius: 15px;
     padding: 10px;
     background-color: #ffffff;
@@ -44,8 +55,8 @@
 
 .LoginPageWrapper button:hover
 {
-    background-color: rgb(80, 80, 250);
-    color: white;
+    background: rgb(170, 243, 170);
+    color: rgb(0, 0, 0);
 }
 
 .LoginPageInputHolder a{

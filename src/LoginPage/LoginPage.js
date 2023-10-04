@@ -11,7 +11,7 @@ function LoginPage()
               <input type='password' className='InputHolder' placeholder='Jelszó' id='password'></input><br></br>
                <button type='submit'>Belépés</button><br></br>
                <a>Elfelejtetted a jelszavad?</a><br></br>
-               <a href='RegisterPage'>Regisztráció</a>         
+               <a href='/register'>Regisztráció</a>         
             </div>
         </div>
     );

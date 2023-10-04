@@ -2,7 +2,7 @@
 {
     width: 100%;
     height: 75px;
-    background-color: rgb(118, 118, 118);
+    background: linear-gradient(0.25turn, #d896ff, #be29ec, #d896ff);
     justify-content: center;
     display: flex;
     align-items: center;

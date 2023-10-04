@@ -5,7 +5,7 @@ import Navbar from './Navbar/Navbar.js';
 import RegisterPage from './RegisterPage/RegisterPage.js';
 import LoginPage from './LoginPage/LoginPage.js';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-
+import Footer from './Footer/Footer.js';
 
 
 function App() {
@@ -15,12 +15,12 @@ function App() {
       <Navbar/>   
        <BrowserRouter>
          <Routes>
-
              <Route path='/' element={<LoginPage/> }/>
              <Route path='/register' element={<RegisterPage/> } />
          </Routes>
         </BrowserRouter>
       </div>
+        <Footer/>
     </div>
   );
 }

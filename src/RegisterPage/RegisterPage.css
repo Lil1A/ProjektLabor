@@ -61,6 +61,8 @@
     text-decoration: none;
     width: 200px;
     margin-top: 50px;
+    transition: all 0.3s ease;
+
 }
 
 .RegisterPageWrapper button:hover
@@ -72,11 +74,14 @@
 }
 
 .RegisterPageInputHolder a{
-    color: rgb(0, 0, 0);
+    color: rgb(35, 35, 247);
+    padding: 5px;
     margin: 25px;
     display: flex;
     justify-content: center;
-
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
 
 }
 

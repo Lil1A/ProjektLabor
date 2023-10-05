@@ -8,15 +8,6 @@ function Navbar()
             <a href='/' id='Főoldal'>Főoldal</a> 
             <a href='Kapcsolat' id='Kapcsolat'>Kapcsolat</a>
             <a href='Ügyintézés' id='Ügyintézés'>Ügyintézés</a>
-            <a href='GYIK' id='GYIK'>GY.I.K</a>
-          
-          
-            {/*
-                     <button className='Login'>Belépés</button>            
-          
-          */}
-
-
         </div>
     );
 }

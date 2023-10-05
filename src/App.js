@@ -6,6 +6,7 @@ import RegisterPage from './RegisterPage/RegisterPage.js';
 import LoginPage from './LoginPage/LoginPage.js';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Footer from './Footer/Footer.js';
+import Content from './Content/Content.js';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
          </Routes>
         </BrowserRouter>
       </div>
+        <Content/>
         <Footer/>
     </div>
   );

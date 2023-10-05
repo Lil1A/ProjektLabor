@@ -51,6 +51,7 @@
     text-decoration: none;
     width: 200px;
     margin-top: 50px;
+    transition: all 0.3s ease;
 }
 
 .LoginPageWrapper button:hover
@@ -60,11 +61,20 @@
 }
 
 .LoginPageInputHolder a{
-    color: rgb(3, 3, 3);
+    color: rgb(35, 35, 247);
     padding: 5px;
     margin: 25px;
     display: flex;
     justify-content: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.LoginPageInputHolder a:hover{
+    transition: all 0.3s ease;
+    color: red;
 
 }
 

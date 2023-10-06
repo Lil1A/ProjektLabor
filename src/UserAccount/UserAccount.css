@@ -1,0 +1,19 @@
+.UserAccountBody {
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+}
+
+.Balance
+{
+    background-color: aqua;
+    width: 500px;
+    height: 300px;
+}
+
+.Balance p
+{
+    font-size: 40px;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+}
+

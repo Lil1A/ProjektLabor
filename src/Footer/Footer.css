@@ -2,10 +2,12 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 
 }
 .footer{
-    background: linear-gradient(0.25turn, #d896ff, #be29ec, #d896ff);
+    background: linear-gradient(#be29ec, #e4bbfa);
+    margin-top: 50px;
     padding: 70px 0;
     bottom: 0;
     width: 100%;
@@ -42,9 +44,9 @@ ul
     font-size: 20px;
     text-decoration: none;
     color: white;
-    text-transform: capitalize;
     display: block;
     transition: all 0.3s ease;
+    margin-bottom: 15px;
 }
 .footer-col ul li a:hover
 {
@@ -53,7 +55,7 @@ ul
 
 .footer-col h4{
     font-size: 18px;
-    column-rule: white;
+    column-rule: rgb(0, 0, 0);
     text-transform: capitalize;
     margin-bottom: 30px;
     position: relative;
@@ -68,6 +70,13 @@ ul
     height: 2px;
     box-sizing: border-box;
     width: 50px;
+}
+
+.footer-col a
+{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 

@@ -17,7 +17,7 @@ function Footer() {
                <div className='footer-col'>
                   <h4>Kapcsolat</h4>
                   <ul>
-                     <li><a href='#'>Ebank@gmail.com</a></li>
+                     <li><a href='#'><section id='Contact'>Ebank@gmail.com</section></a></li>
                     <a href='#'>06707715954</a>
                   </ul>
                </div>

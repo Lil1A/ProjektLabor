@@ -6,7 +6,7 @@
     justify-content: center;
     display: flex;
     align-items: center;
-
+    scroll-behavior: smooth;
 }
 
 img

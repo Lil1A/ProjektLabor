@@ -7,23 +7,23 @@ import LoginPage from './LoginPage/LoginPage.js';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Footer from './Footer/Footer.js';
 import Content from './Content/Content.js';
+import UserAccount from './UserAccount/UserAccount.js';
 
 
 function App() {
   return (
     <div className="App">
       <div>
-      <Navbar/>   
        <BrowserRouter>
          <Routes>
-             <Route path='/' element={<LoginPage/> }/>
-             <Route path='/register' element={<RegisterPage/> } />
+             <Route path='/' element={[<Navbar/>,<Content/>,<LoginPage/>,<Footer/>]} />
+             <Route path='/register'  element={[<Navbar/>,<Content/>,<RegisterPage/>, <Footer/>]}/>
+             <Route path='/UserAccount' element={<UserAccount/>}/>
          </Routes>
         </BrowserRouter>
-      </div>
-        <Content/>
-        <Footer/>
+      </div> 
     </div>
+  
   );
 }
 

@@ -17,7 +17,7 @@ function UserAccount()
                     <li><a>Számlatörténet</a></li>
                 </ul>
             </div>
-               <h4 id='Name'>Üdvözöljük, <label id='AccountUserName'>{Records[1].title}</label></h4>
+            <h4 id='Name'>Üdvözöljük, <label id='AccountUserName'>{Records[1].title} 👋</label></h4> 
                <div className='BalanceWrapper'>
                 <div className='Balance'>
                     <p className='BalanceP'>Az egyenleged:<label id='AccountBalance'> {Records[1].amount} Ft</label></p>
@@ -25,8 +25,8 @@ function UserAccount()
                </div>
                <div className='History'>
                    <h4><label>Számlatörténet</label></h4>
-               </div>
-              
+               </div> 
+        
         </div>
     
     );

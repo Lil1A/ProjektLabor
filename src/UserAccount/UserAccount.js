@@ -11,17 +11,20 @@ function UserAccount()
             <div className='UserAccountNavbar'>
                 <ul>
                     <li><a>Utalás</a></li>
-                    <li><a>megtakaritások</a></li>
+                    <li><a>Megtakaritások</a></li>
                     <li><a>Hitelek</a></li>
                     <li><a>Számlabefizetés</a></li>
                     <li><a>Számlatörténet</a></li>
                 </ul>
             </div>
-               <h4 id='Name'>Hello <label id='AccountUserName'>{Records[2].title}</label></h4>
+               <h4 id='Name'>Üdvözöljük, <label id='AccountUserName'>{Records[1].title}</label></h4>
                <div className='BalanceWrapper'>
                 <div className='Balance'>
-                    <p>Az egyenleged:<label id='AccountBalance'>{Records[2].amount}</label></p>
+                    <p className='BalanceP'>Az egyenleged:<label id='AccountBalance'> {Records[1].amount} Ft</label></p>
                 </div>
+               </div>
+               <div className='History'>
+                   <h4><label>Számlatörténet</label></h4>
                </div>
               
         </div>

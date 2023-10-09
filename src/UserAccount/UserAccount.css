@@ -1,7 +1,9 @@
 .UserAccountNavbar
 {
-    width: 100%;
+    width: 70%;
     height: 80px;
+    margin: 0 auto;
+    border-radius: 35px;
     margin-top: 50px;   
     display: flex;
     background:  #9a0eeb;
@@ -20,6 +22,7 @@
 .UserAccountNavbar li a{
     margin: 25px;
     padding : 15px;
+    border-radius: 15px;
     justify-content: center;
     color: white;
     text-decoration: none;
@@ -30,13 +33,13 @@
 }
 
 .UserAccountNavbar li a:hover{
-    background-color: #a510fb;
-    color: rgb(81, 28, 28);
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 1, 0.2);
+    background-color: #4f0579;
+    color: white;
+    box-shadow: 0px 5px 10px 0px rgba( 1, 0.2);
     text-decoration: none;
     text-align: center;
     font-size: 25px;
-    border-radius: 5px;
+    border-radius: 25px;
     transition: 0.3s ease;
     font-family: 'Pluto Sans or Graphik';
 
@@ -48,18 +51,43 @@
 }
 
 .Balance
-{
+{   
     background-color: rgba(250, 207, 247, 0.909);
     width: 500px;
     height: 200px;
     border-radius: 25px;
-    margin-top: 15px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin: 35px 0px 0px 15px;   
 }
 
 .Balance p
 {
+    margin-top:  5px;
     font-size: 40px;
     font-weight: 400;
     font-family:'Times New Roman', Times, serif;
+}
+
+#Name{
+    margin-top: 15px;
+    font-size: 50px;
+}
+
+.History
+{   
+    border-radius: 2%;
+    float: right;
+    width: 40%;
+    height: 600px;
+    justify-content: center;
+    text-align: center;
+    background-color: lightblue;    
+}
+
+.History label
+{
+    font-size: 25px;
 }
 

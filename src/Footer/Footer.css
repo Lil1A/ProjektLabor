@@ -6,7 +6,7 @@
 
 }
 .footer{
-    background: linear-gradient(#be29ec, #e4bbfa);
+    background: linear-gradient(#9a0eeb, #290235);
     margin-top: 50px;
     padding: 70px 0;
     bottom: 0;
@@ -50,7 +50,7 @@ ul
 }
 .footer-col ul li a:hover
 {
-    color: 	#0b012a;
+    color: 	rgb(81, 2, 105);
 }
 
 .footer-col h4{

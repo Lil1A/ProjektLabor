@@ -3,6 +3,7 @@ import './Content.css';
 function Content() {
   return (
     <div className="Welcome">
+      <div className='WelcomeWrapper'>
      <label>Kedves Ügyfelünk!</label><br></br><br></br>
       Örömmel üdvözöljük Önt a bankunk weboldalán! Nagy
       megtiszteltetés számunkra, hogy bizalmába részesülhetünk, és lehetőséget
@@ -12,6 +13,7 @@ function Content() {
       visszaüzenetét, és minden jót kívánunk Önnek a banki weboldalunk
       használata során! <br></br><br></br>Üdvözlettel,<br></br><br></br>
       <h4>E-bank</h4>
+        </div>
     </div>
   );
 }

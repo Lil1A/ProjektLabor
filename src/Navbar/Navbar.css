@@ -2,7 +2,7 @@
 {
     width: 100%;
     height: 75px;
-    background: linear-gradient(0.25turn, #d896ff, #be29ec, #d896ff);
+    background: linear-gradient(0.25turn, #9a0eeb, #290235, #9a0eeb);
     justify-content: center;
     display: flex;
     align-items: center;
@@ -19,11 +19,11 @@ img
 {
     margin: 15px;
     justify-content: center;
-    color: rgb(0, 0, 0);
+    color: white;
     text-decoration: none;
     padding: 15px;
     text-align: center;
-    font-size: 23px;
+    font-size: 25px;
     font-family: 'Pluto Sans or Graphik';
     position: relative;
 }
@@ -31,7 +31,7 @@ img
 
 .Navbar a:hover
 {
-    color: white;
+    color: rgb(81, 2, 105);
     transition: all 0.4s ease;
 }
 

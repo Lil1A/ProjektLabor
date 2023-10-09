@@ -8,6 +8,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Footer from './Footer/Footer.js';
 import Content from './Content/Content.js';
 import UserAccount from './UserAccount/UserAccount.js';
+import './App.css';
 
 
 function App() {

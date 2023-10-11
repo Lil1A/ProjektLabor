@@ -83,8 +83,7 @@
     top: 50px;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(180deg, rgb(242, 46, 232), rgb(136, 0, 255));
-    color: white;
+    background-color: lightblue;    
 }
 
 .History label

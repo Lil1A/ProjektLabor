@@ -9,9 +9,18 @@ import Footer from './Footer/Footer.js';
 import Content from './Content/Content.js';
 import UserAccount from './UserAccount/UserAccount.js';
 import './App.css';
+import { useEffect } from 'react';
+import axios, {AxiosResponse } from 'axios';
 
 
 function App() {
+
+  useEffect(() => {
+    axios.get('https://localhost:7009/WeatherForecast')    //linkelés front end back end egyszerű példa
+    .then((response) => {console.log(response.data); 
+    });
+}, []);
+  
   return (
     <div className="App">
       <div>

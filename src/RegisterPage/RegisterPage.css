@@ -4,7 +4,11 @@
     height: 500px;
     background: linear-gradient(#efbbff, #91b8e5);
     border-radius: 15px;
-    margin: 70px 0px 0px 70px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: center;
+    text-align: center;
 }
 
 .RegisterPageInputHolder

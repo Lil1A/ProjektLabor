@@ -9,6 +9,7 @@ import Footer from './Footer/Footer.js';
 import Content from './Content/Content.js';
 import UserAccount from './UserAccount/UserAccount.js';
 import './App.css';
+import Card from './Card/Card.js';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
              <Route path='/' element={[<Navbar/>,<Content/>,<LoginPage/>,<Footer/>]} />
              <Route path='/register'  element={[<Navbar/>,<Content/>,<RegisterPage/>, <Footer/>]}/>
              <Route path='/UserAccount' element={<UserAccount/>}/>
+             <Route path='/UserAccount/Cards' element={<Card/>}/>
          </Routes>
         </BrowserRouter>
       </div> 

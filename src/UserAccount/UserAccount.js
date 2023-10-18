@@ -3,6 +3,7 @@ import './UserAccount.css';
 import Records from '../records.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLayerGroup } from '@fortawesome/free-solid-svg-icons';
+import Card from '../Card/Card.js';
 
 
 
@@ -20,9 +21,12 @@ function UserAccount()
                     <li><a>Hitelek</a></li>
                     <li><a>Számlabefizetés</a></li>
                     <li><a>Számlatörténet</a></li>
+                    <li><a>Széf</a></li>
+                    <li><a>Zseb</a></li>
+                    <li><a href='/UserAccount/Cards'>Kártyáim</a></li>
                 </ul>
             </div>
-               <h4 id='Name'>Üdvözöljük, <label id='AccountUserName'>{Records[1].title}</label></h4>
+               <h4 id='Name'>Üdvözöljük, <label id='AccountUserName'>{Records[1].title} 👋</label></h4>
                <div className='BalanceWrapper'>
                 <div className='Balance'>
                     <p className='BalanceP'>Az egyenleged:<label id='AccountBalance'> {Records[1].amount} Ft</label></p>

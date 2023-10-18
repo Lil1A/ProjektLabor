@@ -1,12 +1,13 @@
 .UserAccountNavbar
 {
+    height: 100%;
     width: auto;
-    height: 100%; 
-    display: block;
-    background: #9a0eeb;
-    scroll-behavior: smooth;
-    float: left;
-    position: absolute;
+  display: block;
+  background: #9a0eeb;
+  position: fixed; /* Fixált pozíció, hogy mindig látható legyen */
+  top: 0; /* Felső szélen legyen */
+  left: 0;
+  
 }
 
 .UserAccountNavbar li{
@@ -19,7 +20,7 @@
 .UserAccountNavbar li a{
     color: white;
     display: block;
-    padding: 15px   ;
+    padding: 10px;
     text-decoration: none;
     font-size: 20px;
     font-family: 'Pluto Sans or Graphik';

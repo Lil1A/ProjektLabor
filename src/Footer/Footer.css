@@ -51,25 +51,26 @@ footer .wave
     background-size: 1000px 100px;
 }
 
-footer .wave#wave1
+footer .wave.wave1
 {
     z-index: 1000;
     opacity: 1;
     bottom: 0;
-    animation:  animateWave 6s linear infinite;
+    animation:  animateWave 4s linear infinite;
 }
 footer .wave#wave2
 {
     z-index: 999;
     opacity: 0.5;
     bottom: 10px;
-    animation:  animateWave_02 6s linear infinite;
+    animation:  animateWave_02 4s linear infinite;
 }
 footer .wave#wave3
 {
     z-index: 1000;
     opacity: 0.2;
     bottom: 15px;
+    animation-delay: -2s;
     animation:  animateWave 3s linear infinite;
 }
 footer .wave#wave4
@@ -84,12 +85,12 @@ footer .wave#wave4
 {
     0%
     {
-        background-position-x: 1000px;
+        background-position-x: 0px;
     }
 
     100%
     {
-        background-position-x: 0px;
+        background-position-x: 1000px;
     }
 
 }
@@ -103,7 +104,7 @@ footer .wave#wave4
 
     100%
     {
-        background-position-x: 1000px;
+        background-position-x: -1000px;
     }
 
 }

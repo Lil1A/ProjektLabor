@@ -1,31 +1,31 @@
 import './Footer.css';
 
 function Footer() {
+   
     return (
-      <footer className='footer'>
-         <div className='container'>
-            <div className='row'>
-               <div className='footer-col'>
-                  <h4>Cégünk</h4>
-                  <ul>
-                     <li><a href='#'>Rólunk</a></li>
-                     <li><a href='#'>Szolgáltatásaink</a></li>
-                     <li><a href='#'>Biztonság</a></li>
-                     <li><a href='#'>Programjaink</a></li>
-                  </ul>
-               </div>
-               <div className='footer-col'>
-                  <h4>Kapcsolat</h4>
-                  <ul>
-                     <li><a href='#'><section id='Contact'>Ebank@gmail.com</section></a></li>
-                    <a href='#'>06707715954</a>
-                  </ul>
-               </div>
-            </div>
+      
+      <footer>
+         <div className='waves'>
+            <div className='wave' id='wave1'></div>
+            <div className='wave' id='wave2'></div>
+            <div className='wave' id='wave3'></div>
+            <div className='wave' id='wave4'></div>
          </div>
+         <ul className='menu'>
+            <h4>
+               <li><a href='#'>Rólunk</a></li>
+               <li><a href='#'>Szolgáltatásaink</a></li>
+               <li><a href='#'>Biztonság</a></li>
+               <li><a href='#'>Programjaink</a></li>
+               <li><a href='#'>Kapcsolat</a></li>
+            </h4>
+        </ul>
       </footer>
     );
   }
 
   export default Footer;
+  
+
+ 
   

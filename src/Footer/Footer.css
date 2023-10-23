@@ -44,10 +44,10 @@ footer{
 footer .wave
 {
     position: absolute;
-    top: -100px;
+    top: -60px;
     left: 0;
     width: 100%;
-    height: 100px;
+    height: 60px;
     background: url(wave3.png);
     background-size: 1000px 100px;
 }

@@ -11,12 +11,14 @@
     background: linear-gradient( #9a0eeb, #290235);
     box-shadow: 0 25px 35px rgba(0, 0, 0,  0.5);
 
+
 }
 
 .UserAccountNavbar span
 {
     padding-left: 15px;
     font-size: 15px;
+    justify-content: center;
     text-transform: uppercase;
 }
 
@@ -29,9 +31,20 @@
     display: table;
     width: 400px;
     padding: 10px;
+    text-decoration: none;
+    list-style: none;
 
 }
 
+.logout
+{
+
+    position: relative;
+    width:70px;
+    height: 30px;
+    bottom: 0;
+    font-size: 15px;
+}
 
 .icon
 {
@@ -39,24 +52,24 @@
     position: relative;
     width:70px;
     height: 30px;
-    top:5px;
+    top:2px;
     font-size: 15px;
     text-align: center;
-    justify-content: center;
 }
 
 .nav-item
 {
     position: relative;
     margin-left: 10px;
-    justify-content: center;
-    text-align: center;
 }
+
 
 
 .UserAccountNavbar a:hover
 {
+    cursor: pointer;
     background-color: purple;
+    
 }
 
 .UserAccountNavbar nav:hover

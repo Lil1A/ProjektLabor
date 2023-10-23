@@ -2,7 +2,7 @@ import React from 'react';
 import './UserAccount.css';
 import Records from '../records.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faHelmetSafety, faLandmark, faSatelliteDish } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope,faVault, faHelmetSafety, faCreditCard, faRightFromBracket, faLandmark, faSatelliteDish, faWallet, faPiggyBank, faScaleBalanced } from '@fortawesome/free-solid-svg-icons';
 import Card from '../Card/Card.js';
 
 
@@ -20,13 +20,14 @@ function UserAccount()
                 <nav> 
                     <ul>
                         <li><a><FontAwesomeIcon icon={faEnvelope} className='icon'/><span className='navitem'>Utalás</span></a></li>
-                        <li><a><FontAwesomeIcon icon={faSatelliteDish} className='icon'/><span className='navitem'>Megtakaritások</span></a></li>
-                        <li><a><FontAwesomeIcon icon={faSatelliteDish} className='icon'/><span className='navitem'>Hitelek</span></a></li>
-                        <li><a><FontAwesomeIcon icon={faSatelliteDish} className='icon'/><span className='navitem'>Számlabefizetés</span></a></li>
+                        <li><a><FontAwesomeIcon icon={faWallet} className='icon'/><span className='navitem'>Megtakaritások</span></a></li>
+                        <li><a><FontAwesomeIcon icon={faScaleBalanced} className='icon'/><span className='navitem'>Hitelek</span></a></li>
+                        <li><a><FontAwesomeIcon icon={faPiggyBank} className='icon'/><span className='navitem'>Számlabefizetés</span></a></li>
                         <li><a><FontAwesomeIcon icon={faLandmark} className='icon'/><span className='navitem'>Számlatörténet</span></a></li>
-                        <li><a><FontAwesomeIcon icon={faSatelliteDish} className='icon'/><span className='navitem'>Zseb</span></a></li>
-                        <li><a href='/UserAccount/Cards'>Kártyáim</a></li>
-                    </ul>
+                        <li><a><FontAwesomeIcon icon={faVault} className='icon'/><span className='navitem'>Zseb</span></a></li>
+                        <li><a href='/UserAccount/Cards'><FontAwesomeIcon icon={faCreditCard} className='icon'/><span className='navitem'>Kártáim</span></a></li>
+                        <li><a><FontAwesomeIcon icon={faRightFromBracket}  className='logout'/><span className='navitem'>Kilépés</span></a></li>
+                   </ul>
                 </nav>
               
             </div>

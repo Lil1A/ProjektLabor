@@ -1,5 +1,6 @@
 .LoginPageWrapper
 {
+    position: relative;
     width: 400px;
     height: 500px;
     background: linear-gradient(#efbbff, #91b8e5);
@@ -28,7 +29,7 @@
     border: none;
     border-radius: 15px;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #ffffffef;
     text-decoration: none;
     width: 200px;
     margin-top: 50px;

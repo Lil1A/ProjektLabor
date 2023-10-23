@@ -9,6 +9,8 @@ import Card from '../Card/Card.js';
 
 const {title, amount} = Records; //json fájllal kommunikálás
 
+
+
 function UserAccount()
 {
     

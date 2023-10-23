@@ -21,6 +21,7 @@ function Content() {
     <div>
       <div className='Kapcsolat'>
         <div className='KapcsolatWrapper'>
+          <h2>Kapcsolat:</h2>
           
         </div>
       </div>

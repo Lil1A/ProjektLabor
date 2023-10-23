@@ -1,43 +1,68 @@
-.UserAccountNavbar
-{
+
+.UserAccountNavbar nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
     height: 100%;
-    width: auto;
-  display: block;
-  background: #9a0eeb;
-  position: fixed; /* Fixált pozíció, hogy mindig látható legyen */
-  top: 0; /* Felső szélen legyen */
-  left: 0;
-  
+    left: 0;
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    background: linear-gradient( #9a0eeb, #290235);
+    box-shadow: 0 25px 35px rgba(0, 0, 0,  0.5);
+
 }
 
-.UserAccountNavbar li{
-    display: block ;
-    text-align: center;
+.UserAccountNavbar span
+{
+    padding-left: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
-
-
-.UserAccountNavbar li a{
+.UserAccountNavbar a
+{
+    margin-bottom: 15px;
+    position: relative;
     color: white;
-    display: block;
+    font-size: 14px;
+    display: table;
+    width: 400px;
     padding: 10px;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: 'Pluto Sans or Graphik';
-    margin: 15px;
+
 }
 
-.UserAccountNavbar li a:hover{
-    background-color: #4f0579;
-    color: white;
-    box-shadow: 0px 5px 10px 0px rgba( 1, 0.2);
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;
-    border-radius: 25px;
-    transition: 0.3s ease;
-    font-family: 'Pluto Sans or Graphik';
 
+.icon
+{
+
+    position: relative;
+    width:70px;
+    height: 30px;
+    top:5px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav-item
+{
+    position: relative;
+    margin-left: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.UserAccountNavbar a:hover
+{
+    background-color: purple;
+}
+
+.UserAccountNavbar nav:hover
+{
+    width: 280px;
+    
 }
 
 .UserAccountBody {

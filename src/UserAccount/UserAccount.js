@@ -2,7 +2,7 @@ import React from 'react';
 import './UserAccount.css';
 import Records from '../records.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLayerGroup } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faHelmetSafety, faLandmark, faSatelliteDish } from '@fortawesome/free-solid-svg-icons';
 import Card from '../Card/Card.js';
 
 
@@ -15,16 +15,18 @@ function UserAccount()
     return(
         <div className='UserAccountBody'>
             <div className='UserAccountNavbar'>
-                <ul>
-                    <li><a>Utalás <FontAwesomeIcon icon={faLayerGroup} /></a></li>
-                    <li><a>Megtakaritások</a></li>
-                    <li><a>Hitelek</a></li>
-                    <li><a>Számlabefizetés</a></li>
-                    <li><a>Számlatörténet</a></li>
-                    <li><a>Széf</a></li>
-                    <li><a>Zseb</a></li>
-                    <li><a href='/UserAccount/Cards'>Kártyáim</a></li>
-                </ul>
+                <nav> 
+                    <ul>
+                        <li><a><FontAwesomeIcon icon={faEnvelope} className='icon'/><span className='navitem'>Utalás</span></a></li>
+                        <li><a><FontAwesomeIcon icon={faSatelliteDish} className='icon'/><span className='navitem'>Megtakaritások</span></a></li>
+                        <li><a><FontAwesomeIcon icon={faSatelliteDish} className='icon'/><span className='navitem'>Hitelek</span></a></li>
+                        <li><a><FontAwesomeIcon icon={faSatelliteDish} className='icon'/><span className='navitem'>Számlabefizetés</span></a></li>
+                        <li><a><FontAwesomeIcon icon={faLandmark} className='icon'/><span className='navitem'>Számlatörténet</span></a></li>
+                        <li><a><FontAwesomeIcon icon={faSatelliteDish} className='icon'/><span className='navitem'>Zseb</span></a></li>
+                        <li><a href='/UserAccount/Cards'>Kártyáim</a></li>
+                    </ul>
+                </nav>
+              
             </div>
                <h4 id='Name'>Üdvözöljük, <label id='AccountUserName'>{Records[1].title} 👋</label></h4>
                <div className='BalanceWrapper'>
@@ -35,7 +37,7 @@ function UserAccount()
                <div className='History'>
                    <h4><label>Számlatörténet</label></h4>
                </div> 
-        
+    
         </div>
     
     );

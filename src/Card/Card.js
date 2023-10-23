@@ -25,7 +25,7 @@ function Card()
                     <div className="card">
                         <div className="card-inner2">
                             <div className="front2">
-                                <div className="cardnumbers2">
+                                <div className="cardnumbers">
                                     <p>8041</p>
                                     <p>1235</p>
                                     <p>3546</p>

@@ -5,9 +5,9 @@ const Navbar = () =>
 
     return(
         <div className='Navbar'>
-            <a href='/' id='Főoldal'>Főoldal</a> 
-            <a href='#Contact'>Kapcsolat</a>
-            <a href='Ügyintézés' id='Ügyintézés'>Ügyintézés</a>
+            <a id='Főoldal'>Főoldal</a> 
+            <a id='Contact'>Kapcsolat</a>
+            <a id='Ügyintézés'>Ügyintézés</a>
         </div>
     );
 }

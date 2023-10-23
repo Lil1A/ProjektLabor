@@ -1,5 +1,6 @@
 import './Content.css';
 
+
 function Content() {
   return (
     <div className="Welcome">
@@ -15,7 +16,8 @@ function Content() {
       <h4>E-bank</h4>
         </div>
     </div>
-  );
+  );  
 }
+
 
 export default Content;

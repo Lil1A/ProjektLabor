@@ -8,6 +8,7 @@
 
 
 footer{
+    
     position: absolute;
     bottom: 0;
     background: linear-gradient(180deg, #9a0eeb, #290235);
@@ -47,11 +48,11 @@ footer .wave
     left: 0;
     width: 100%;
     height: 100px;
-    background: url(wave02.png);
+    background: url(wave3.png);
     background-size: 1000px 100px;
 }
 
-footer .wave.wave1
+footer .wave#wave1
 {
     z-index: 1000;
     opacity: 1;
@@ -70,7 +71,7 @@ footer .wave#wave3
     z-index: 1000;
     opacity: 0.2;
     bottom: 15px;
-    animation-delay: -2s;
+    animation-delay: 3s;
     animation:  animateWave 3s linear infinite;
 }
 footer .wave#wave4

@@ -25,18 +25,16 @@ function UserAccount()
                         <li><a><FontAwesomeIcon icon={faPiggyBank} className='icon'/><span className='navitem'>Számlabefizetés</span></a></li>
                         <li><a><FontAwesomeIcon icon={faLandmark} className='icon'/><span className='navitem'>Számlatörténet</span></a></li>
                         <li><a><FontAwesomeIcon icon={faVault} className='icon'/><span className='navitem'>Zseb</span></a></li>
-                        <li><a href='/UserAccount/Cards'><FontAwesomeIcon icon={faCreditCard} className='icon'/><span className='navitem'>Kártáim</span></a></li>
-                        <li><a><FontAwesomeIcon icon={faRightFromBracket}  className='logout'/><span className='navitem'>Kilépés</span></a></li>
+                        <li><a href='/UserAccount/Cards'><FontAwesomeIcon icon={faCreditCard} className='icon'/><span className='navitem'>Kártáim</span></a></li><br></br><br></br>
+                        <li><a><FontAwesomeIcon icon={faRightFromBracket}  className='logout' id='logout'/><span className='navitem'>Kilépés</span></a></li>
                    </ul>
                 </nav>
               
             </div>
+            <div className='Balance'>
                <h4 id='Name'>Üdvözöljük, <label id='AccountUserName'>{Records[1].title} 👋</label></h4>
-               <div className='BalanceWrapper'>
-                <div className='Balance'>
                     <p className='BalanceP'>Az egyenleged:<label id='AccountBalance'> {Records[1].amount} Ft</label></p>
-                </div>
-               </div>
+            </div>
                <div className='History'>
                    <h4><label>Számlatörténet</label></h4>
                </div> 

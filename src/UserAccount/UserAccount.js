@@ -33,7 +33,10 @@ function UserAccount()
             </div>
             <div className='Balance'>
                <h4 id='Name'>Üdvözöljük, <label id='AccountUserName'>{Records[1].title} 👋</label></h4>
-                    <p className='BalanceP'>Az egyenleged:<label id='AccountBalance'> {Records[1].amount} Ft</label></p>
+                  <FontAwesomeIcon icon={faWallet} className='walleticon'/>
+                    <p>Az egyenleged:<br></br>
+                    <span>{Records[1].amount} Ft</span>
+                    </p>
             </div>
                <div className='History'>
                    <h4><label>Számlatörténet</label></h4>

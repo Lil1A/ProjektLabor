@@ -22,10 +22,10 @@
 {
  
     font-size: 20px;
-    float: left;
+    float: right;
     width: 80%;
     height: 400px;
-    margin: 150px 0px 100px 150px;
+    margin: 150px 0px 100px 180px;
     font-family: serif;
     color: rgb(0, 0, 0);
 }

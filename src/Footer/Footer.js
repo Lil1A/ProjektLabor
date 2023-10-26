@@ -13,10 +13,10 @@ function Footer() {
          </div>
          <ul className='menu'>
             <h4>
-               <li>Rólunk</li>
-               <li>Szolgáltatásaink</li>
-               <li>Biztonság</li>
-               <li>Programjaink</li>               
+               <li><a href='/#'>Rólunk</a></li>
+               <li><a href='/#'>Szolgáltatásaink</a></li>
+               <li><a href='/#'>Biztonság</a></li>
+               <li><a href='/#'>Programjaink</a></li>               
             </h4>
         </ul>
       </footer>
